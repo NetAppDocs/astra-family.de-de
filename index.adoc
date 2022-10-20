@@ -1,0 +1,15 @@
+---
+layout: product-family 
+permalink: index.html 
+lead: The NetApp Astra product family offers storage and application-aware data management services for Kubernetes applications on-premises and in the public cloud, powered by NetApp storage and data management technologies. 
+summary: Die NetApp Astra Produktfamilie bietet Storage und applikationsgerechte Datenmanagement-Services für Kubernetes-Applikationen On-Premises und in der Public Cloud auf der Basis von NetApp Storage- und Datenmanagement-Technologien. 
+---
+= Astra-Dokumentation
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

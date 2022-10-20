@@ -1,0 +1,55 @@
+---
+settings:
+  name: Astra Family
+  search: astra-control-service,astra-control-center,astra-automation,trident
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: de-de,us-en,ja-jp,zh-cn,zh-tw,ko-kr,fr-fr
+sidebar:
+  entries:
+  - title: Dokumentation der Astra Produktfamilie
+    url: "/index.html"
+product-family:
+  sidebarlinks:
+  - title: Alle Produkte
+    tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
+    class: active
+  - title: Applikationsdatenmanagement
+    tags: tag_application_data_management
+  - title: Storage-Management
+    tags: tag_storage_management
+  - title: Automatisierung und API
+    tags: tag_api
+  tiles:
+  - title: Erfahren Sie mehr über die Astra-Familie
+    icon: "./media/Astra_Family_logo_line.png"
+    url: intro-family.html
+    summary: Erfahren Sie mehr über die Astra-Produktfamilie.
+    tags: all, tag_get_started
+  - title: Astra Control Service
+    icon: "./media/Astra_Control_logo_line.png"
+    url: https://docs.netapp.com/us-en/astra/index.html
+    summary: Ein von NetApp gemanagter Service ermöglicht applikationsgerechtes Datenmanagement
+      für Kubernetes-Workloads in Public Clouds.
+    tags: all, tag_application_data_management
+  - title: Astra Control Center
+    icon: "./media/Astra_Control_logo_line.png"
+    url: https://docs.netapp.com/us-en/astra-control-center/index.html
+    summary: Automatisierte Software ermöglicht applikationskonsistentes Datenmanagement
+      für lokale Kubernetes-Workloads.
+    tags: all, tag_application_data_management
+  - title: Astra Trident
+    icon: "./media/Astra_Trident_logo_line2.png"
+    url: https://docs.netapp.com/us-en/trident/index.html
+    summary: Verwenden Sie CSI-konforme Storage-Provisionierung und -Management für
+      Kubernetes-Workloads mit NetApp Storage-Providern.
+    tags: all, tag_storage_management
+  - title: Astra Automation und API
+    icon: "./media/Astra_Family_logo_line.png"
+    url: https://docs.netapp.com/us-en/astra-automation/index.html
+    summary: Verwenden Sie eine API und SDKs, um Astra-Workflows in Ihren Prozessen
+      zu automatisieren.
+    tags: all, tag_api
