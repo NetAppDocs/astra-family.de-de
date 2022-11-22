@@ -10,7 +10,8 @@ summary: Astra ist ein Kubernetes-Managementservice für Applikationsdaten, der 
 :imagesdir: ./media/
 
 
-Die NetApp Astra Produktfamilie bietet Management von Applikationsdaten und Storage für Cloud-native Applikationen. 
+[role="lead"]
+Die NetApp Astra Produktfamilie bietet Management von Applikationsdaten und Storage für Cloud-native Applikationen.
 
 Die Lösungen von Astra umfassen:
 
@@ -23,13 +24,6 @@ Die Lösungen von Astra umfassen:
 * *Astra Trident*: Verwenden Sie mit NetApp Storage-Providern Container-Storage-Interface (CSI)-kompatible Storage-Bereitstellung und -Management für Kubernetes-Workloads.
 
 
-[cols="1h,2d"]
-|===
-| Funktion | Produkt 
-
-
-| Vereinfachtes | Astra Control Service Astra Control Center Astra Trident 
-|===
 
 
 == Astra Control
@@ -95,7 +89,9 @@ Auf beiden Plattformen laufen dieselben Funktionen, mit Ausnahme von Backend Sto
 
 
 | Was ist die Back-End-Unterstützung für Storage? | NetApp Cloud-Serviceangebote  a| 
-NetApp ONTAP AFF und FAS Systeme
+* NetApp ONTAP AFF und FAS Systeme
+* Cloud Volumes ONTAP Storage Back-End
+
 
 |===
 
