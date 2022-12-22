@@ -45,15 +45,13 @@ Astra Control bietet entscheidende Funktionen für das Lifecycle Management von 
 * Nutzen Sie die Benutzeroberfläche oder eine API zur Implementierung Ihrer Backup- und Migration-Workflows
 
 
-Astra Control überwacht Ihr Computing kontinuierlich auf Zustandsänderungen, so ist es bewusst, dass neue Apps, die Sie auf dem Weg hinzufügen.
-
 
 
 === Implementierungsmodelle
 
 Astra Control ist in zwei Implementierungsmodellen erhältlich:
 
-* *Astra Control Service*: Ein von NetApp gemanagter Service, der applikationskonsistentes Datenmanagement von Kubernetes-Clustern in der Google Kubernetes Engine (GKE) und Azure Kubernetes Service (AKS) ermöglicht.
+* *Astra Control Service*: Ein von NetApp gemanagter Service, der applikationskonsistentes Datenmanagement von Kubernetes-Clustern in Amazon Web Services (AWS), Azure Kubernetes Service (AKS) und Google Kubernetes Engine (GKE) ermöglicht.
 +
 https://docs.netapp.com/us-en/astra/index.html["Dokumentation des Astra Control Service"^]
 
@@ -63,32 +61,53 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center-Dokume
 
 
 
-[cols="1h,2d,2a"]
+[cols="1h,2a,2a"]
 |===
 |  | Astra Control Service | Astra Control Center 
 
 
-| Wie wird das angeboten? | Vollständig gemanagter Cloud-Service von NetApp  a| 
+| Wie wird das angeboten?  a| 
+Vollständig gemanagter Cloud-Service von NetApp
+ a| 
 Als Software, die Sie herunterladen, installieren und verwalten
 
 
 
-| Wo wird sie gehostet? | In einer Public Cloud von NetApp ihrer Wahl  a| 
+| Wo wird sie gehostet?  a| 
+In einer Public Cloud von NetApp ihrer Wahl
+ a| 
 In Ihrem bereitgestellten Kubernetes-Cluster
 
 
 
-| Wie wird sie aktualisiert? | Gemanagt von NetApp  a| 
+| Wie wird sie aktualisiert?  a| 
+Gemanagt von NetApp
+ a| 
 Sie verwalten jegliche Updates
 
 
 
-| Welche Funktionen stehen für das Applikationsdatenmanagement zur Verfügung? | Auf beiden Plattformen laufen dieselben Funktionen, mit Ausnahme von Backend Storage oder externen Services  a| 
-Auf beiden Plattformen laufen dieselben Funktionen, mit Ausnahme von Backend Storage oder externen Services
+| Was ist die Back-End-Unterstützung für Storage?  a| 
+* Amazon Web Services:
++
+** Amazon EBS
+** Amazon FSX für NetApp ONTAP
+
+
+* Google Cloud:
++
+** Google Persistent Disk
+** NetApp Cloud Volumes Service
+
+
+* Microsoft Azure:
++
+** Über Azure Gemanagte Festplatten
+** Azure NetApp Dateien
 
 
 
-| Was ist die Back-End-Unterstützung für Storage? | NetApp Cloud-Serviceangebote  a| 
+ a| 
 * NetApp ONTAP AFF und FAS Systeme
 * Cloud Volumes ONTAP Storage Back-End
 
