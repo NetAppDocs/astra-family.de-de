@@ -41,6 +41,7 @@ Astra Control bietet entscheidende Funktionen für das Lifecycle Management von 
 * Automatisierung von richtlinienbasierten Snapshot- und Backup-Vorgängen
 * Migrieren Sie Applikationen und Daten von einem Kubernetes-Cluster zu einem anderen
 * Klonen einer Applikation vom Staging zur Produktion
+* Replizierung von Applikationen auf ein Remote-System mit NetApp SnapMirror Technologie
 * Darstellung des Anwendungszustands und des Schutzstatus
 * Nutzen Sie die Benutzeroberfläche oder eine API zur Implementierung Ihrer Backup- und Migration-Workflows
 
@@ -55,7 +56,7 @@ Astra Control ist in zwei Implementierungsmodellen erhältlich:
 +
 https://docs.netapp.com/us-en/astra/index.html["Dokumentation des Astra Control Service"^]
 
-* *Astra Control Center*: Gemanagte Software für applikationsgerechtes Datenmanagement von Kubernetes-Clustern, die in Ihrer On-Premises-Umgebung ausgeführt werden.
+* *Astra Control Center*: Gemanagte Software für applikationsgerechtes Datenmanagement von Kubernetes-Clustern, die in Ihrer On-Premises-Umgebung ausgeführt werden. Astra Control Center kann auch mit einem NetApp Cloud Volumes ONTAP Storage-Back-End auf Amazon Web Services, Microsoft Azure und Google Cloud Platform (GCP) installiert werden.
 +
 https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center-Dokumentation"^]
 
@@ -69,14 +70,14 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center-Dokume
 | Wie wird das angeboten?  a| 
 Vollständig gemanagter Cloud-Service von NetApp
  a| 
-Als Software, die Sie herunterladen, installieren und verwalten
+Software, die Sie herunterladen, installieren und verwalten
 
 
 
 | Wo wird sie gehostet?  a| 
 In einer Public Cloud von NetApp ihrer Wahl
  a| 
-In Ihrem bereitgestellten Kubernetes-Cluster
+Verwenden Sie Ihr eigenes Kubernetes Cluster
 
 
 
