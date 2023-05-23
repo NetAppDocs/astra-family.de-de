@@ -54,11 +54,11 @@ Astra Control ist in zwei Implementierungsmodellen erhältlich:
 
 * *Astra Control Service*: Ein von NetApp gemanagter Service, der applikationskonsistentes Datenmanagement für Kubernetes-Cluster in Umgebungen mehrerer Cloud-Provider sowie selbstverwaltete Kubernetes-Cluster bietet.
 +
-https://["Dokumentation des Astra Control Service"^]
+https://docs.netapp.com/us-en/astra/index.html["Dokumentation des Astra Control Service"^]
 
 * *Astra Control Center*: Gemanagte Software für applikationsgerechtes Datenmanagement von Kubernetes-Clustern, die in Ihrer On-Premises-Umgebung ausgeführt werden. Astra Control Center kann auch auf mehreren Cloud-Provider-Umgebungen mit einem NetApp Cloud Volumes ONTAP Storage-Backend installiert werden.
 +
-https://["Astra Control Center-Dokumentation"^]
+https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center-Dokumentation"^]
 
 
 
@@ -131,16 +131,16 @@ Sie verwalten jegliche Updates
 
 Astra Trident ist die Open-Source-Implementierung einer driver​ Kubernetes Container Storage Interface (CSI) von NetApp. Astra Trident bietet Orchestrierung und Datenkonnektivität für Kubernetes applications​.
 
-https://["Astra Trident-Dokumentation"^]
+https://docs.netapp.com/us-en/trident/index.html["Astra Trident-Dokumentation"^]
 
 
 
 == Finden Sie weitere Informationen
 
-* https://["Dokumentation des Astra Control Service"^]
-* https://["Astra Control Center-Dokumentation"^]
-* https://["Astra Trident-Dokumentation"^]
-* https://["Astra Control API"^]
-* https://["Cloud Insights-Dokumentation"^]
-* https://["ONTAP-Dokumentation"^]
+* https://docs.netapp.com/us-en/astra/index.html["Dokumentation des Astra Control Service"^]
+* https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center-Dokumentation"^]
+* https://docs.netapp.com/us-en/trident/index.html["Astra Trident-Dokumentation"^]
+* https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API"^]
+* https://docs.netapp.com/us-en/cloudinsights/["Cloud Insights-Dokumentation"^]
+* https://docs.netapp.com/us-en/ontap/index.html["ONTAP-Dokumentation"^]
 
