@@ -91,7 +91,7 @@ Astra Control basiert auf vier sich ergänzenden Komponenten:
 
 Astra Control ist in zwei Implementierungsmodellen verfügbar.
 
-image:astra-architecture-diagram-v6.png["Astra Implementierungsmodelle"]
+image:astra-architecture-diagram-v7.png["Astra Implementierungsmodelle"]
 
 * *Astra Control Service*: Ein von NetApp gemanagter Service, der applikationskonsistentes Datenmanagement für Kubernetes-Cluster in Umgebungen mehrerer Cloud-Provider sowie selbstverwaltete Kubernetes-Cluster bietet.
 +
@@ -150,9 +150,9 @@ Sie verwalten jegliche Updates
 ** Red hat OpenShift Container Platform
 
 
-* *On-Premise-Cluster*
+* *On-Premises-Cluster*
 +
-** Red hat OpenShift-Container-Plattform vor Ort
+** Lokale Red hat OpenShift Container-Plattform
 
 
 
@@ -202,7 +202,7 @@ Sie verwalten jegliche Updates
 ** https://longhorn.io/["Longhorn"^]
 
 
-* *On-Premise-Cluster*
+* *On-Premises-Cluster*
 +
 ** NetApp MetroCluster
 ** NetApp ONTAP AFF und FAS Systeme

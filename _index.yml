@@ -19,30 +19,30 @@ product-family:
     tags: tag_api
   tiles:
   - title: Weitere Informationen zu Astra Control
-    icon: "./media/Astra_Family_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: intro-family.html
     summary: Mehr zu Astra Control.
     tags: tag_all, tag_application_data_management, tag_storage_management, tag_api
   - title: Astra Control Service
-    icon: "./media/Astra_Control_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: "../astra/index.html"
     summary: Ein von NetApp gemanagter Service ermöglicht applikationsgerechtes Datenmanagement
       für Kubernetes-Workloads in Public Clouds.
     tags: tag_all, tag_application_data_management
   - title: Astra Control Center
-    icon: "./media/Astra_Control_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: "../astra-control-center/index.html"
     summary: Automatisierte Software ermöglicht applikationskonsistentes Datenmanagement
       für lokale Kubernetes-Workloads.
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
-    icon: "./media/Astra_Trident_logo_line2.png"
+    icon: "./media/Astra-Trident-logo.png"
     url: "../trident/index.html"
     summary: Verwenden Sie CSI-konforme Storage-Provisionierung und -Management für
       Kubernetes-Workloads mit NetApp Storage-Providern.
     tags: tag_all, tag_storage_management
   - title: Astra Automation und API
-    icon: "./media/Astra_Family_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: "../astra-automation/index.html"
     summary: Verwenden Sie eine API und SDKs, um Astra-Workflows in Ihren Prozessen
       zu automatisieren.
