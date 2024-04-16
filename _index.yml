@@ -36,7 +36,7 @@ product-family:
       für lokale Kubernetes-Workloads.
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
-    icon: "./media/Astra-Trident-logo.png"
+    icon: "./media/Astra-Trident-logo2.png"
     url: "../trident/index.html"
     summary: Verwenden Sie CSI-konforme Storage-Provisionierung und -Management für
       Kubernetes-Workloads mit NetApp Storage-Providern.
