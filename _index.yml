@@ -23,12 +23,6 @@ product-family:
     url: intro-family.html
     summary: Mehr zu Astra Control.
     tags: tag_all, tag_application_data_management, tag_storage_management, tag_api
-  - title: Astra Control Service
-    icon: "./media/NetApp-Astra-ship.png"
-    url: "../astra/index.html"
-    summary: Ein von NetApp gemanagter Service ermöglicht applikationsgerechtes Datenmanagement
-      für Kubernetes-Workloads in Public Clouds.
-    tags: tag_all, tag_application_data_management
   - title: Astra Control Center
     icon: "./media/NetApp-Astra-ship.png"
     url: "../astra-control-center/index.html"
